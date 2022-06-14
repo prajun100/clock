@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    background: url(img/robert-lukeman-_RBcxo9AU-U-unsplash.jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 35px;
+    letter-spacing: 8px;
+    margin-right: 50px;
+    
+}
+.main{
+    text-align: center;
+    margin: 200px;
+
+}
+.main div{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    color: aliceblue;
+    
+   
+}
+.main span{
+    height: 90px;
+    background-color:violet;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-shadow: 2px 2px black;
+    font-size: 40px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+.main .text{
+    text-transform: uppercase;
+    font-size: 20px;
+    height:22px;
+    background: blue;
+    letter-spacing: 2px;
+}
+#ampm{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    color:yellowgreen;
+    background-color: green;
+    font-size: 20px;
+}
